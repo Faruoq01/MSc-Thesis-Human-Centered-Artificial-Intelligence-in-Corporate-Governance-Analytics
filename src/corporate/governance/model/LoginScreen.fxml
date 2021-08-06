@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+
+<StackPane fx:id="stackpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="corporate.governance.model.LoginScreenController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="720.0">
+         <children>
+            <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" prefHeight="519.0" prefWidth="718.0" style="-fx-background-color: black;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Pane layoutY="25.0" opacity="0.15" prefHeight="575.0" prefWidth="720.0" style="-fx-background-color: grey;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0" />
+                  <AnchorPane prefHeight="575.0" prefWidth="652.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <FontAwesomeIconView fx:id="image" fill="WHITE" glyphName="MAP_MARKER" layoutX="32.0" layoutY="53.0" size="20" wrappingWidth="11.428571701049805" />
+                        <Label layoutX="51.0" layoutY="36.0" text="Dashboard" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Separator layoutX="151.0" layoutY="36.0" opacity="0.33" orientation="VERTICAL" prefHeight="20.0" prefWidth="0.0" />
+                        <MaterialDesignIconView fill="WHITE" glyphName="CHART_HISTOGRAM" layoutX="177.0" layoutY="53.0" size="20" />
+                        <Label layoutX="213.0" layoutY="36.0" text="Statistics" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Separator layoutX="293.0" layoutY="36.0" opacity="0.33" orientation="VERTICAL" prefHeight="20.0" prefWidth="0.0" />
+                        <FontAwesomeIconView fill="WHITE" glyphName="GEARS" layoutX="314.0" layoutY="53.0" size="20" />
+                        <Label layoutX="351.0" layoutY="36.0" text="Machine Learning" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Separator layoutX="490.0" layoutY="36.0" opacity="0.33" orientation="VERTICAL" prefHeight="20.0" prefWidth="0.0" />
+                        <MaterialDesignIconView fill="WHITE" glyphName="CHART_AREASPLINE" layoutX="512.0" layoutY="53.0" size="20" />
+                        <Label layoutX="543.0" layoutY="36.0" text="Performance Prediction" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <Pane layoutY="73.0" opacity="0.23" prefHeight="550.0" prefWidth="720.0" style="-fx-background-color: grey; -fx-background-radius: 25;" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" />
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label layoutX="321.0" layoutY="106.0" text="WELCOME !" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="77.0" layoutY="240.0" prefHeight="60.0" prefWidth="568.0" text="Human-Centered Artificial Intelligence in Corporate Governance Analytics and Software Prototyping" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="38.0" layoutY="139.0" text="Project Title" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Separator layoutX="25.0" layoutY="165.0" opacity="0.1" prefHeight="0.0" prefWidth="671.0" />
+                        <Separator layoutX="25.0" layoutY="528.0" opacity="0.1" prefHeight="0.0" prefWidth="671.0" />
+                        <Label layoutX="25.0" layoutY="542.0" text="Designed and built by Aminu Faruk Umar" textFill="WHITE" />
+                        <Label layoutX="24.0" layoutY="569.0" text="Msc Information Technology, National Open University of Nigeria." textFill="WHITE" />
+                        <JFXButton buttonType="RAISED" layoutX="275.0" layoutY="435.0" onAction="#getStarted" prefHeight="36.0" prefWidth="172.0" ripplerFill="WHITE" style="-fx-background-color: red; -fx-background-radius: 50;" text="Get Started" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton buttonType="RAISED" layoutX="274.0" layoutY="484.0" onAction="#Exit" prefHeight="36.0" prefWidth="172.0" ripplerFill="WHITE" style="-fx-background-color: green; -fx-background-radius: 50;" text="Exit" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

@@ -1,0 +1,76 @@
+.tree-table-row-cell:hover{
+    -fx-background-color:  #013335;
+}
+
+
+.tree-table-view, .table-view{
+    -fx-tree-table-rippler-color : rgba(255, 0, 0, 0.9);
+    -fx-background-color:  transparent;
+    -fx-text-alignment: center;
+    
+}
+
+.tree-table-view:focused .tree-table-row-cell:selected {
+    -fx-background-color:   #013335;
+    -fx-text-alignment: center;
+}
+
+.tree-table-view .tree-table-row-cell {
+    -fx-background-color:    #013335;
+    -fx-text-alignment: center;
+    -fx-table-cell-border-color: #013335;
+    
+}
+
+
+.tree-table-view:focused .tree-table-row-cell:selected .tree-table-cell{
+    -fx-text-fill: white;
+}
+
+.tree-table-view .jfx-rippler {
+    -fx-rippler-fill: #8f9691;
+}
+
+.tree-table-view .column-header{
+    -fx-background-color:   #001e28;
+    -fx-pref-height: 25px;
+}
+
+.tree-table-view .column-header .label {
+    -fx-font-family: sans-serif;
+    -fx-font-size: 11px;
+    -fx-text-fill : white;
+    -fx-padding: 0 0 0 0;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    
+    
+}
+
+.tree-table-view .tree-table-cell {
+    -fx-text-fill: white;
+    -fx-background-color:   #001e28;
+    -fx-border-width:0 0.2 0 0;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+}
+
+.tree-table-view .column-overlay{
+    -fx-background-color:  #001e28;
+    -fx-text-alignment: center;
+}
+.tree-table-view{
+    -fx-border-color: #03031e;
+    -fx-border-style: solid;
+    -fx-border-width:1px;
+    -fx-text-alignment: center;
+}
+
+.tree-table-column{
+    -fx-alignment: CENTER;
+    -fx-text-alignment: center;
+}
+
+.text-input{
+    -fx-text-fill: white;
+}
